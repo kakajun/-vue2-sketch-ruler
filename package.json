@@ -24,7 +24,9 @@
   "module": "lib/index.es.js",
   "style": "lib/style.css",
   "scripts": {
-    "dev": "cd example/v2 && vite --config vite.demo.js"
+    "dev": "cd example/v2 && vite --config vite.demo.js",
+     "prepare": "husky install",
+      "lint:lint-staged": "lint-staged -c ./.husky/lintstagedrc.js"
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,less}": "prettier --write",
