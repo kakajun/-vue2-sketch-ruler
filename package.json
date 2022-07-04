@@ -25,8 +25,8 @@
   "style": "lib/style.css",
   "scripts": {
     "dev": "cd example/v2 && vite --config vite.demo.js",
-     "prepare": "husky install",
-      "lint:lint-staged": "lint-staged -c ./.husky/lintstagedrc.js"
+    "prepare": "husky install",
+     "pretty": "pretty-quick --staged"
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,less}": "prettier --write",
