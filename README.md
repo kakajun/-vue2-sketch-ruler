@@ -8,7 +8,7 @@
 
 English  | [中文](https://github.com/kakajun/vue3-sketch-ruler/blob/1x/README.CH.md)
 
-时隔半年,重启mater的新版开发, 大家有兴趣的可以加我微信: ka132300  拉入群, 大家一起讨论1234
+时隔半年,重启mater的新版开发, 大家有兴趣的可以加我微信: ka132300  拉入群, 大家一起讨论123455
 效果图如下
 
 ![image](https://github.com/kakajun/vue3-sketch-ruler/blob/1x/newruler.png)
