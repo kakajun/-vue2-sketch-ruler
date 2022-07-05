@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    {{aa}}
+    {{ aa }}
     <a href="https://data.avuejs.com/build/1" target="_blank" class="redlink">
       实例地址:https://data.avuejs.com/build/1
     </a>
     <div>按住Ctril+鼠标滚轮可以缩放页面-vue2加载</div>
-    <UserRuler />
+                                  <UserRuler />
   </div>
 </template>
 <script>
@@ -17,12 +17,12 @@ export default defineComponent({
   components: {
     UserRuler
   },
-    setup(props, { emit }) {
-        const aa=ref(0)
-        return {
-          aa
-        }
+  setup(props, { emit }) {
+    const aa = ref(0)
+    return {
+      aa
     }
+  }
 })
 </script>
 
