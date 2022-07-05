@@ -25,7 +25,7 @@
   "style": "lib/style.css",
   "scripts": {
     "dev": "cd example/v2 && vite --config vite.demo.js",
-    "prepare": "husky install",
+    "prepare": "husky install .husky",
     "pretty": "pretty-quick --staged"
   },
   "lint-staged": {
