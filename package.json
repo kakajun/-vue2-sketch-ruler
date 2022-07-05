@@ -64,8 +64,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint --config commitlint.config.js -e -V",
-      "pre-commit": "prepare"
+      "pre-commit": "npm run prepare",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "peerDependencies": {
