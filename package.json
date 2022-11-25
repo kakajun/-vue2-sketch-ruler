@@ -24,9 +24,7 @@
   "module": "lib/index.es.js",
   "style": "lib/style.css",
   "scripts": {
-    "dev": "cd example/v2 && vite --config vite.demo.js",
-    "prepare": "husky install .husky",
-    "pretty": "pretty-quick --staged"
+
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,less}": "prettier --write",
@@ -91,5 +89,8 @@
   ],
   "bugs": {
     "url": "https://github.com/kakajun/vue3-sketch-ruler/issues"
+  },
+  "dependencies": {
+    "vite-plugin-vue2": "^2.0.2"
   }
 }
